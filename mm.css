@@ -1,0 +1,54 @@
+body
+{
+	padding: 20px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 5px 20px;
+        margin: 5px  5px 10px 10px;
+        float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 15px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #1E90FF;
+
+}
+
+.orange
+{
+	background-color: #FFA07A;
+	
+}
+
+.green
+{
+	background-color: #228B22;
+
+}
+
+.yellow
+{
+	background-color: #F2CF66;
+
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+        -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+} 
